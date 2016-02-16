@@ -1,6 +1,9 @@
 # docker-rabbitmq-stomp
 A Dockerfile to run [RabbitMQ](https://www.rabbitmq.com/) with the [STOMP plugin](https://www.rabbitmq.com/stomp.html) enabled.
 
+## DockerHub
+https://hub.docker.com/r/resilva87/docker-rabbitmq-stomp/
+
 ## Using
 `sudo docker run -d -e RABBITMQ_NODENAME=my-rabbit --name rabbitmq -p 8080:15672 -p 61613:61613 resilva87/docker-rabbitmq-stomp`
 
